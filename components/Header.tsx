@@ -11,10 +11,11 @@ const Header: React.FC<HeaderProps> = ({ onDemoClick }) => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <GlobeAltIcon className="h-8 w-8 text-cyan-500" />
-            <span className="text-2xl font-bold text-slate-800 tracking-tight">
-              Turismo<span className="text-cyan-500">Sintético</span>
-            </span>
+            <img 
+              src="https://github.com/GastonF28/_turismo1/blob/bf5afbbef7014685476e4390f85d276b49b580df/superpeople3.png" 
+              alt="Super People - La evolución del talento" 
+              className="h-12 md:h-16 w-auto object-contain" 
+            />
           </div>
           <button
             onClick={onDemoClick}
