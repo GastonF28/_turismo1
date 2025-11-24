@@ -11,7 +11,7 @@ const Header: React.FC<HeaderProps> = ({ onDemoClick }) => {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <img 
-              src="https://github.com/GastonF28/_turismo1/blob/bf5afbbef7014685476e4390f85d276b49b580df/superpeople3.png" 
+              src="https://raw.githubusercontent.com/GastonF28/_turismo1/main/superpeople3-removebg-preview.png" 
               alt="Super People - La evolución del talento" 
               className="h-12 md:h-16 w-auto object-contain" 
             />
